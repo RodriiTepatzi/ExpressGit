@@ -17,7 +17,7 @@ user.post("/", async (req, res, next) => {
     return res.status(500).json({ code: 500, message: "Ocurrió un error" });
   }
   return res.status(500).json({ code: 500, message: "Campos incompletos" });
-});
+}); 
 
 user.get("/", async (req, res, next) => {
   const query = "SELECT * FROM user";

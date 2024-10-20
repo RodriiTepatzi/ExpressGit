@@ -30,5 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert('Ocurrió un error al registrar el usuario');
             });
         });
+        
     }
 })
